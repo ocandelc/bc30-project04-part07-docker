@@ -1,0 +1,5 @@
+cd C:\Program Files\Docker\Docker\DockerCli.exe -SwitchDaemon
+
+cd C:\OCANDELC\06-github-bc30-project04\bc30-project04-part04-business-microservice03
+docker build -t bc30-project04-part04-business-microservice03-docker .
+docker run -d -p 8093:8093 bc30-project04-part04-business-microservice03-docker
